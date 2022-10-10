@@ -1,3 +1,9 @@
+variable "ibmcloud_api_key" {
+  type        = string
+  default = ""
+  description = "The IAM API Key for IBM Cloud access"
+}
+
 ##############################################################################
 # Module Variables
 ##############################################################################
